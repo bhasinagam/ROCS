@@ -4,8 +4,8 @@ import { Code2, Users, Trophy, BookOpen } from 'lucide-react';
 const features = [
   {
     icon: Code2,
-    title: "Competitive Programming",
-    description: "Challenge yourself with advanced algorithmic problems"
+    title: "Research Opportunities",
+    description: "Gain awareness about various research opportunities in the field of Computer Science"
   },
   {
     icon: Users,

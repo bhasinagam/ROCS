@@ -13,11 +13,6 @@ const features = [
     description: "Connect with fellow programmers and industry experts"
   },
   {
-    icon: Trophy,
-    title: "Prizes",
-    description: "Win exciting prizes and recognition"
-  },
-  {
     icon: BookOpen,
     title: "Learning",
     description: "Gain insights from workshops and sessions"

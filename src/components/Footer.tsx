@@ -21,13 +21,13 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-3">Organizers</h3>
             <p className="text-gray-400">
-              Dr. Akhilesh Kumar Sharma: <a href="tel:+911122334455" className="hover:text-white transition-colors">+91 1122334455</a>
+              Dr. Akhilesh Kumar Sharma: <a href="tel:+917737674426" className="hover:text-white transition-colors">+917737674426</a>
             </p>
             <p className="text-gray-400">
-              Dr. Kumar Gaurav: <a href="tel:+911122334466" className="hover:text-white transition-colors">+91 1122334466</a>
+              Dr. Kumar Gaurav: <a href="tel:+919672789881" className="hover:text-white transition-colors">+919672789881</a>
             </p>
             <p className="text-gray-400">
-              Dr. Deevesh Choudhary: <a href="tel:+911122334477" className="hover:text-white transition-colors">+91 1122334477</a>
+              Mr. Deevesh Choudhary: <a href="tel:+919983364567" className="hover:text-white transition-colors">+919983364567</a>
             </p>
           </div>
 
@@ -35,7 +35,7 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-3">Student Organizer</h3>
             <p className="text-gray-400">
-              Kuljeet Singh Shekhawat: <a href="tel:+911122334488" className="hover:text-white transition-colors">+91 1122334488</a>
+              Kuljeet Singh Shekhawat: <a href="tel:+919330168199" className="hover:text-white transition-colors">+919330168199</a>
             </p>
           </div>
         </div>

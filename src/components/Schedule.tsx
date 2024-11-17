@@ -4,24 +4,44 @@ import { motion } from 'framer-motion';
 
 const scheduleDay = [
   {
-    time: "09:00 AM",
-    title: "Opening Ceremony",
-    description: "Welcome address and competition guidelines",
+    time: "09:30 AM - 10:00 AM",
+    title: "Opening",
+    description: "Welcome Address",
   },
   {
-    time: "10:00 AM",
-    title: "Round 1: Algorithm Sprint",
-    description: "Fast-paced algorithmic problem-solving challenge",
+    time: "10:00 AM - 11:00 AM",
+    title: "Speaker Talk by Dr. Arun Balaji Buduru",
+    description: "",
   },
   {
-    time: "02:00 PM",
-    title: "Technical Workshop",
-    description: "Advanced Data Structures and Algorithms Workshop",
+    time: "11:00 AM - 11:30 AM",
+    title: "Hi-Tea",
+    description: "",
   },
   {
-    time: "04:00 PM",
-    title: "Round 2: Code Marathon",
-    description: "Extended competitive programming round",
+    time: "11:30 AM - 12:30 PM",
+    title: "Speaker Talk by Dr. Avinash Sharma",
+    description: "",
+  },
+  {
+    time: "12:30 PM - 01:30 PM",
+    title: "Speaker Talk by Dr. Rajiv Raman",
+    description: "",
+  },
+  {
+    time: "01:30 PM - 02:30 PM",
+    title: "Lunch",
+    description: "",
+  },
+  {
+    time: "02:30 PM - 03:30 PM",
+    title: "Speaker Talk by Dr. Dip Sankar Banerjee ",
+    description: "",
+  },
+    {
+    time: "03:30 PM - 05:00 PM",
+    title: "Closing",
+    description: "",
   },
 ];
 

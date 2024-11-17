@@ -12,9 +12,7 @@ export function Footer() {
             <p className="text-gray-400">
               Email: <a href="mailto:acm@muj.manipal.edu" className="hover:text-white transition-colors">acm@muj.manipal.edu</a>
             </p>
-            <p className="text-gray-400">
-              Phone: <a href="tel:+911234567890" className="hover:text-white transition-colors">+91 1234567890</a>
-            </p>
+          
           </div>
 
           {/* Organizers Section */}

@@ -74,7 +74,7 @@ export function Schedule() {
         >
           <h3 className="text-2xl font-bold mb-10 text-slate-900 flex items-center justify-center">
             <Clock className="mr-2 text-blue-500" />
-            March 15
+            November 23
           </h3>
 
           <div className="space-y-12">

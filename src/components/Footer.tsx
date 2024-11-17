@@ -4,22 +4,39 @@ export function Footer() {
   return (
     <footer className="bg-slate-900 text-white py-6">
       <div className="max-w-5xl mx-auto px-4 lg:px-6">
-        <div className="grid md:grid-cols-2 gap-8 text-center md:text-left">
+        {/* Main Footer Content */}
+        <div className="grid md:grid-cols-3 gap-8 text-center md:text-left">
           {/* Contact Section */}
           <div>
             <h3 className="text-lg font-semibold mb-3">Contact Us</h3>
-            <p className="text-gray-400">Email: <a href="mailto:acm@muj.manipal.edu" className="hover:text-white transition-colors">acm@muj.manipal.edu</a></p>
-            <p className="text-gray-400">Phone: <a href="tel:+911234567890" className="hover:text-white transition-colors">+91 1234567890</a></p>
+            <p className="text-gray-400">
+              Email: <a href="mailto:acm@muj.manipal.edu" className="hover:text-white transition-colors">acm@muj.manipal.edu</a>
+            </p>
+            <p className="text-gray-400">
+              Phone: <a href="tel:+911234567890" className="hover:text-white transition-colors">+91 1234567890</a>
+            </p>
           </div>
 
-          {/* Quick Links Section */}
+          {/* Organizers Section */}
           <div>
-            <h3 className="text-lg font-semibold mb-3">Quick Links</h3>
-            <ul className="space-y-2">
-              <li><a href="https://in.explara.com/e/research-opportunities-in-computer-science-at-manipal-university-jaipur" className="text-gray-400 hover:text-white transition-colors">Register</a></li>
-              <li><a href="#schedule" className="text-gray-400 hover:text-white transition-colors">Schedule</a></li>
-              <li><a href="#speakers" className="text-gray-400 hover:text-white transition-colors">Speakers</a></li>
-            </ul>
+            <h3 className="text-lg font-semibold mb-3">Organizers</h3>
+            <p className="text-gray-400">
+              Dr. Akhilesh Kumar Sharma: <a href="tel:+911122334455" className="hover:text-white transition-colors">+91 1122334455</a>
+            </p>
+            <p className="text-gray-400">
+              Dr. Kumar Gaurav: <a href="tel:+911122334466" className="hover:text-white transition-colors">+91 1122334466</a>
+            </p>
+            <p className="text-gray-400">
+              Dr. Deevesh Choudhary: <a href="tel:+911122334477" className="hover:text-white transition-colors">+91 1122334477</a>
+            </p>
+          </div>
+
+          {/* Student Organizer Section */}
+          <div>
+            <h3 className="text-lg font-semibold mb-3">Student Organizer</h3>
+            <p className="text-gray-400">
+              Kuljeet Singh Shekhawat: <a href="tel:+911122334488" className="hover:text-white transition-colors">+91 1122334488</a>
+            </p>
           </div>
         </div>
 

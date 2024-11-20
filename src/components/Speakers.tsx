@@ -60,11 +60,11 @@ export function Speakers() {
           {/* First three speakers */}
           {speakers.slice(0, 3).map((speaker, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden group lg:col-span-2">
-              <div className="aspect-w-1 aspect-h-1 relative">
+              <div className="relative h-72">
                 <img
                   src={speaker.image}
                   alt={speaker.name}
-                  className="w-full h-64 object-cover object-center"
+                  className="w-full h-full object-contain bg-gray-50"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center p-6">
                   <div className="flex space-x-4">
@@ -84,11 +84,11 @@ export function Speakers() {
           {/* Last two speakers */}
           {speakers.slice(3).map((speaker, index) => (
             <div key={index + 3} className={`bg-white rounded-lg shadow-lg overflow-hidden group lg:col-span-2 ${index === 0 ? 'lg:col-start-2' : 'lg:col-start-4'}`}>
-              <div className="aspect-w-1 aspect-h-1 relative">
+              <div className="relative h-72">
                 <img
                   src={speaker.image}
                   alt={speaker.name}
-                  className="w-full h-64 object-cover object-center"
+                  className="w-full h-full object-contain bg-gray-50"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center p-6">
                   <div className="flex space-x-4">

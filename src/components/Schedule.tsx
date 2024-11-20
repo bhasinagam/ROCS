@@ -4,61 +4,62 @@ import { motion } from 'framer-motion';
 
 const scheduleDay = [
   {
-    time: "09:00 AM - 09:30 AM",
+    time: "09:00 AM - 09:20 AM",
     title: "Registrations",
     description: "",
   },
   {
-    time: "09:30 AM - 09:45 AM",
+    time: "09:20 AM - 09:30 AM",
     title: "Opening Remarks",
     description: "Dr Akhilesh Sharma, MU-Jaipur",
   },
   {
-    time: "09:45 AM - 10:00 AM",
-    title: "Dr Sudip Misra, IIT Kharagpur", 
+    time: "09:30 AM - 09:45 AM",
+    title: "Dr Sudip Misra, IIT Kharagpur",
     description: "ROCS and ACM India RFC activities",
   },
   {
-    time: "10:00 AM - 10:45 AM",
+    time: "09:45 AM - 10:30 AM",
     title: "Dr. Arun Balaji Buduru, IIIT Delhi",
-    description: "Usable Security and Affective AI", 
+    description: "Usable Security and Affective AI",
   },
   {
-    time: "10:45 AM - 11:15 AM",
+    time: "10:30 AM - 11:00 AM",
     title: "Coffee Break",
     description: "",
   },
   {
-    time: "11:15 AM - 12:00 PM",
+    time: "11:00 AM - 11:45 AM",
     title: "Dr. Rajiv Raman, IIIT Delhi",
-    description: "Theory Research in India", 
+    description: "Theory Research in India",
   },
   {
-    time: "12:00 PM - 12:45 PM",
+    time: "11:45 AM - 12:30 PM",
     title: "Dr. Dip Sankar Banerjee, IIT Jodhpur",
-    description: "Opportunities and future directions in data-driven computational systems", 
+    description: "Opportunities and future directions in data-driven computational systems",
   },
   {
-    time: "12:45 PM - 02:15 PM",
+    time: "12:30 PM - 01:45 PM",
     title: "Lunch Break",
     description: "",
   },
   {
-    time: "02:15 PM - 03:00 PM",
+    time: "01:45 PM - 02:30 PM",
     title: "Dr. Avinash Sharma, IIT Jodhpur",
-    description: "Digitizing Humans for Gaming & AR/VR Applications", 
+    description: "Digitizing Humans for Gaming & AR/VR Applications",
   },
   {
-    time: "03:00 PM - 03:30 PM",
+    time: "02:30 PM - 03:00 PM",
     title: "Break",
     description: "",
   },
   {
-    time: "03:30 PM - 04:30 PM",
+    time: "03:00 PM - 04:00 PM",
     title: "AMA (Ask me anything) session",
     description: "Interactive session with the speakers",
   },
 ];
+
 
 const itemVariants = {
   hidden: { opacity: 0, y: 20 },
